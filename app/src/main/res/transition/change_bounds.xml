@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 指定了速度插值器是加速度减速度插值，时长为500ms -->
+    <changeBounds
+        android:duration="500"
+        android:interpolator="@android:interpolator/accelerate_decelerate"/>
+
+</transitionSet>
